@@ -1,6 +1,4 @@
 const http = require('node:http')
-
-// commonJS -> modulos clásicos de node
 const dittoJSON = require('./pokemon/ditto.json')
 
 const processRequest = (req, res) => {
